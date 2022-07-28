@@ -1,0 +1,35 @@
+<h1>show</h1>
+<p> Title: <br>
+  <%= @question.title %>
+</p>
+</p>
+<p> Name: <br>
+  <%= @question.name %>
+</p>
+</p>
+<p> Content: <br>
+  <%= @question.content %>
+</p>
+</p>
+<h2>answer</h2>
+<% @question.answers.each do |answer| %>
+  <p> Name: <br>
+    <%= answer.name %>
+  </p>
+  <p> Content: <br>
+    <%= answer.content %>
+  </p>
+  <%= form_with model: [@question, @question.answers.build] do |form| %>
+    <div>
+      <%= form.label :name %>
+        <%= form.text_field :name %>
+    </div>
+    <div>
+      <%= form.label :content %>
+        <%= form.text_area :name %>
+    </div>
+    <div>
+      <%= form.submit %>
+    </div>
+    <% end %>
+      <%= link_to 'top', questions_path %>

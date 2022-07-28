@@ -1,0 +1,15 @@
+current directory: /Users/mizuki/Documents/railsIntro/qqqaaa/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+/Users/mizuki/.rbenv/versions/3.1.2/bin/ruby -I /Users/mizuki/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/mizuki/Documents/railsIntro/qqqaaa/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220728-9922-g09ixv sitelibdir\=./.gem.20220728-9922-g09ixv clean
+
+current directory: /Users/mizuki/Documents/railsIntro/qqqaaa/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220728-9922-g09ixv sitelibdir\=./.gem.20220728-9922-g09ixv
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/mizuki/Documents/railsIntro/qqqaaa/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220728-9922-g09ixv sitelibdir\=./.gem.20220728-9922-g09ixv install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220728-9922-g09ixv/bootsnap
